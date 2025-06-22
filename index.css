@@ -1,0 +1,724 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family: arial;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    /* justify-content: space-evenly; */
+  
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.logo{
+    background-image:url(images/amaz-log.webp);
+    background-size: cover;
+    height: 60px;
+}
+images/
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:0.75px solid white ;
+}
+
+/**address box **/
+
+.addrress-box{
+    height: 50px;
+    width: 100.64px;
+    margin-right: 5px;
+}
+
+.icon{
+    display: flex;
+}
+.addr1{
+    color: #cccccc;
+    font-size:12px ;
+}
+.addr2{
+    color: white;
+    font-size:14px ;
+}
+
+/** search bar **/
+.search{
+    width: 950px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.search-select{
+    height: 40px;
+    width: 51.6px;
+    background-color: #efefef;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    
+}
+.select{
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   font-size: 14px;
+   background-color: #d4d1d1f6;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+ 
+}
+
+.search-bar{
+    width: 850px;
+    height: 40px;
+    border: none;
+
+}
+
+.bar{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    transform: scale(1);
+}
+
+.search-bar:hover{
+    border: 2px solid orange;
+}
+
+.search-button{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(228, 165, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+ 
+}
+
+/** for language selection box **/
+
+.nav-lang{
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lang-logo{
+    height:17px ;
+    width:22px ;
+    background-image: url(images/eng_logo.png);
+    background-size: cover;
+}
+
+.lang-name{
+    height: 20.0px;
+    width: 46px;
+    font-size: 10px;
+    background-color: #0f1111;
+    color: white;
+}
+
+/** for greeting bar in nav bar**/
+.nav-greet{
+    margin-left: 15px;
+    
+}
+.nav-greet1{
+    font-size: 0.75rem;
+}
+.nav-greet2{
+    font-size: 0.85rem;
+}
+
+/** for return and orders box **/
+.nav-returnbox {
+      margin-left: 20px;
+}
+.nav-return1{
+    font-size: 0.85rem;
+}
+.nav-return2{
+    font-size: 0.95rem;
+}
+
+/** for cart option in nav bar **/
+
+.nav-cart{
+    height: 55px;
+    width: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** for invisible div **/
+.invisible-div{
+    height: 60px;
+    visibility: hidden;
+}
+
+/** for mini nav bar **/
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color:#2b4141;
+    /* position: relative;
+    top: 60px; */
+    color: white;
+    display: flex;
+
+}
+
+.panel-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.panel p{
+    display: inline;
+   
+}
+
+.panel-options{
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+
+  
+}
+
+/** for hero section **/
+ .hero_section{
+    height: 280px;
+    background-image: url(images/hero_sec.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+ }
+
+ .hero_message{
+    
+    height: 40px ;
+    width:80% ;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+ }
+
+ .body_boxes{
+    background-color: rgb(228, 207, 219);
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+ }
+
+ .boxes{
+    background-color:transparent;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+ }
+
+ .box1{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+
+.box1 span{
+    width: 100%;
+    margin-left: 30px;
+}
+ 
+ .box1-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box1.1.jpg);
+    background-size: cover;
+ }
+ .box1-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box1.2.jpg);
+    background-size: cover;
+ }
+ .box1-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box1.3.jpg);
+    background-size: cover;
+ }
+ .box1-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box1.4.jpg);
+    background-size: cover;
+ }
+
+ .box2{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+ .box2-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box2.1.jpg);
+    background-size: cover;
+ }
+ .box2-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box2.2.jpg);
+    background-size: cover;
+ }
+ .box2-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box2.3.jpg);
+    background-size: cover;
+ }
+ .box2-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box2.4.jpg);
+    background-size: cover;
+ }
+
+
+
+ .box3{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+ }
+ .box3-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box3.1.jpg);
+    background-size: cover;
+ }
+ .box3-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box3.2.jpg);
+    background-size: cover;
+ }
+ .box3-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box3.3.jpg);
+    background-size: cover;
+ }
+ .box3-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box3.4.jpg);
+    background-size: cover;
+ }
+images/
+
+ .box4{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: white;
+    
+ }
+ .box4-1{
+    height:70% ;
+    width: 90%;
+    background-image: url(images/box4.jpg);
+    background-size: cover;
+ }
+
+ .box5{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+ .box5-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box5.1.jpg);
+    background-size: cover;
+ }
+ .box5-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box5.2.jpg);
+    background-size: cover;
+ }
+ .box5-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box5.3.jpg);
+    background-size: cover;
+ }
+ .box5-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box5.4.jpg);
+    background-size: cover;
+ }
+
+ .box6{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+ .box6-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box6.1.jpg);
+    background-size: cover;
+ }
+ .box6-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box6.2.jpg);
+    background-size: cover;
+ }
+ .box6-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box6.3.jpg);
+    background-size: cover;
+ }
+ .box6-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box6.4.jpg);
+    background-size: cover;
+ }
+
+ .box7{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+ .box7-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box7.1.jpg);
+    background-size: cover;
+ }
+ .box7-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box7.2.jpg);
+    background-size: cover;
+ }
+ .box7-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box7.3.jpg);
+    background-size: cover;
+ }
+ .box7-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box7.4.jpg);
+    background-size: cover;
+ }
+
+ .box8{
+    height: 420px;
+    width:23% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content: space-evenly;
+    background-color: white;
+  
+ }
+ .box8-1{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box8.1.jpg);
+    background-size: cover;
+ }
+ .box8-2{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box8.2.jpg);
+    background-size: cover;
+ }
+ .box8-3{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box8.3.jpg);
+    background-size: cover;
+ }
+ .box8-4{
+    height: 110px;
+    width:40% ;
+    background-image: url(images/box8.4.jpg);
+    background-size: cover;
+ }
+
+
+
+
+ 
+
+ 
+
+
+ .boxes a{
+    color: rgb(80, 119, 143);
+    font-size: 0.9rem;
+    position: relative;
+    right: 90px;
+ }
+
+ /** hero section 2 **/
+
+ .hero2-cont{
+    background-color:rgb(228, 207, 219) ; 
+    height: 300px;
+ }
+
+ .hero-sec2{
+    height: 282px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+
+ }
+
+ .hero1{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero1.jpg);
+ }
+
+ .hero2{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero2.jpg);
+ }
+
+ .hero3{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero3.jpg);
+ }
+
+ .hero4{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero4.jpg);
+ }
+
+ .hero5{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero5.jpg);
+ }
+
+ .hero6{
+    height:200px ;
+    width: 200px;
+    background-image: url(images/hero6.jpg);
+ }
+
+ /** sign in bar **/
+
+ .sign-in{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+ }
+ .sign-in-1{
+   
+   color: black;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+ 
+ }
+ .sign-in-2 button{
+   width: 200px;
+   height: 29px;
+   border-radius: 15px;
+   font-size: 14px;
+   color: black;
+   background-color: rgb(241, 172, 75);
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+ .sign-in-3{
+   font-size: 11px;
+ }
+
+
+
+
+ /** footer **/
+
+ .back-to-top{
+    height: 50px;
+    background-color:#37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .back-to-top a{
+    text-decoration: none;
+    color: white;
+
+ }
+
+ .other-options{
+    height: 500px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+ }
+
+ .other-options ul{
+    margin-right: 30px;
+ }
+
+ .other-options li{
+
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+    list-style-type: none;
+    
+ }
+
+ .amaz-logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #232f3e;
+    border-top: 0.5px solid white;
+
+ }
+ .logo-fin{
+    height:53px ;
+    width: 80px;
+    background-image: url(images/amaz-log.webp);
+    background-size: cover;
+    margin-bottom: 10px;
+
+ }
+
+
+ .copyright{
+    height: 200px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+ }
+.copyright a{
+    margin-right: 20px;
+}
+.sub-copyright{
+    height: 50px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
